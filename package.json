@@ -15,8 +15,12 @@
   "keywords": ["youtube", "yt", "miner", "search", "scraper", "video", "data", "extractor"],
   "repository": {
   "type": "git",
-  "url": "https://github.com/yourusername/yt-miner.git"
-},
+  "url": "https://github.com/chetanxpro/yt-miner"
+ },
+"homepage": "https://github.com/ChetanXpro/yt-miner#readme",
+"bugs": {
+		"url": "https://github.com/ChetanXpro/yt-miner/issues"
+	},
   "author": "chetan baliyan",
   "license": "MIT",
   "dependencies": {
