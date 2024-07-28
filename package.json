@@ -1,6 +1,6 @@
 {
   "name": "yt-miner",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A powerful tool to mine video data from YouTube search results",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -10,17 +10,26 @@
     "dev": "ts-node src/index.ts",
     "typecheck": "tsc --noEmit",
     "format": "prettier --write src/**/*.ts",
-    "publish":"npm run build; npm publish"
+    "publish": "npm run build; npm publish"
   },
-  "keywords": ["youtube", "yt", "miner", "search", "scraper", "video", "data", "extractor"],
+  "keywords": [
+    "youtube",
+    "yt",
+    "miner",
+    "search",
+    "scraper",
+    "video",
+    "data",
+    "extractor"
+  ],
   "repository": {
-  "type": "git",
-  "url": "https://github.com/chetanxpro/yt-miner"
- },
-"homepage": "https://github.com/ChetanXpro/yt-miner#readme",
-"bugs": {
-		"url": "https://github.com/ChetanXpro/yt-miner/issues"
-	},
+    "type": "git",
+    "url": "https://github.com/chetanxpro/yt-miner"
+  },
+  "homepage": "https://github.com/ChetanXpro/yt-miner#readme",
+  "bugs": {
+    "url": "https://github.com/ChetanXpro/yt-miner/issues"
+  },
   "author": "chetan baliyan",
   "license": "MIT",
   "dependencies": {
