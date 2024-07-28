@@ -36,4 +36,3 @@ mineYouTube(options).then(results => {
 });
 ```
 
-## License
